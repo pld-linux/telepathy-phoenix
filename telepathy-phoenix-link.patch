@@ -1,0 +1,11 @@
+--- telepathy-phoenix-0.0.1/configure.ac.orig	2012-09-10 10:07:15.000000000 +0200
++++ telepathy-phoenix-0.0.1/configure.ac	2012-09-12 17:42:02.146857150 +0200
+@@ -51,7 +51,7 @@
+ AC_SUBST(TP_GLIB_LIBS)
+ 
+ dnl Check for farstream
+-PKG_CHECK_MODULES(TP_FARSTREAM, [telepathy-farstream >= 0.1.0])
++PKG_CHECK_MODULES(TP_FARSTREAM, [telepathy-farstream >= 0.1.0 farstream-0.1])
+ 
+ AC_SUBST(TP_FARSTREAM_CFLAGS)
+ AC_SUBST(TP_FARSTREAM_LIBS)
