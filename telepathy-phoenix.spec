@@ -5,10 +5,10 @@ Version:	0.0.1
 Release:	1
 License:	LGPL v2.1+
 Group:		Libraries
-Source0:	http://telepathy.freedesktop.org/releases/telepathy-phoenix/%{name}-%{version}.tar.gz
+Source0:	https://telepathy.freedesktop.org/releases/telepathy-phoenix/%{name}-%{version}.tar.gz
 # Source0-md5:	5ecac1278371c7ce90ea2a62415b3aa1
 Patch0:		%{name}-link.patch
-URL:		http://telepathy.freedesktop.org/wiki/
+URL:		https://telepathy.freedesktop.org/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.11
 BuildRequires:	farstream-devel
